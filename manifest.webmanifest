@@ -1,0 +1,14 @@
+{
+  "name": "G~Errands",
+  "short_name": "G~Errands",
+  "description": "Shopping, pickups and deliveries. Fast and Reliable.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#101713",
+  "theme_color": "#101713",
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"}
+  ]
+}

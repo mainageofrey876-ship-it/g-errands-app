@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101713">
+  <meta name="description" content="G~Errands — shopping, pickups and deliveries in Eastleigh and Nairobi, with countrywide parcel delivery.">
+  <title>G~Errands | Fast and Reliable</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon-192.png">
+  <style>
+    :root{--green:#a8ff32;--green2:#4ade80;--dark:#101713;--panel:#19221b;--white:#f7faf6;--muted:#b7c2b8;--line:#344137}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--dark);color:var(--white);font-family:Arial,Helvetica,sans-serif;line-height:1.55}
+    a{color:inherit}.wrap{width:min(1080px,92%);margin:auto}
+    header{position:sticky;top:0;z-index:5;background:#101713f2;border-bottom:1px solid var(--line);backdrop-filter:blur(10px)}
+    .nav{min-height:68px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+    .brand{font-weight:900;font-size:1.35rem;letter-spacing:.2px}.brand b{color:var(--green)}
+    nav{display:flex;gap:18px;flex-wrap:wrap}nav a{text-decoration:none;color:var(--muted);font-size:.9rem}nav a:hover{color:var(--green)}
+    .hero{padding:72px 0 64px;background:radial-gradient(ellipse at 85% 15%,#34531b 0,transparent 38%),linear-gradient(135deg,#101713,#172319)}
+    .eyebrow{display:inline-block;border:1px solid #52752d;border-radius:30px;padding:6px 12px;color:var(--green);font-size:.78rem;font-weight:700;letter-spacing:1px}
+    h1{font-size:clamp(2.3rem,6vw,4.4rem);line-height:1.05;margin:18px 0}h1 span{color:var(--green)}
+    .hero p{max-width:650px;color:#d5ded5;font-size:1.08rem}
+    .actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:25px}
+    .btn{display:inline-flex;justify-content:center;align-items:center;text-decoration:none;border:0;border-radius:12px;padding:13px 19px;font-weight:800;cursor:pointer;background:var(--green);color:#14200d}
+    .btn.secondary{background:transparent;border:1px solid #71816e;color:var(--white)}
+    section{padding:55px 0}.section-title{font-size:1.9rem;margin:0 0 8px}.sub{color:var(--muted);margin:0 0 25px}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .tile,.panel{background:var(--panel);border:1px solid var(--line);border-radius:17px;padding:21px}
+    .tile .ico{font-size:1.6rem}.tile h3{margin:9px 0 5px}.tile p{color:var(--muted);font-size:.93rem;margin:0}
+    .two{display:grid;grid-template-columns:1fr 1fr;gap:18px;align-items:start}
+    .price-list{display:grid;gap:10px}.price-row{display:flex;justify-content:space-between;gap:12px;padding:11px 0;border-bottom:1px solid var(--line)}
+    .price-row strong{color:var(--green);white-space:nowrap}
+    .notice{font-size:.88rem;color:var(--muted);background:#101713;border-left:3px solid var(--green);padding:12px 14px;border-radius:7px;margin-top:16px}
+    form{display:grid;gap:12px}label{display:block;font-size:.86rem;font-weight:700;margin-bottom:5px}
+    input,select,textarea{width:100%;padding:12px 13px;border-radius:10px;border:1px solid #526052;background:#101713;color:white;font:inherit}
+    textarea{min-height:90px;resize:vertical}.formgrid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+    form button{width:100%;font:inherit;font-weight:800}
+    .steps{counter-reset:step}.step{padding:15px;border:1px solid var(--line);border-radius:12px;background:var(--panel)}
+    .step b{color:var(--green)}
+    .contact{text-align:center;background:linear-gradient(135deg,#172319,#101713)}
+    footer{padding:25px 0;border-top:1px solid var(--line);color:var(--muted);font-size:.86rem}
+    .small{font-size:.82rem;color:var(--muted)}
+    @media(max-width:720px){.grid{grid-template-columns:1fr 1fr}.two{grid-template-columns:1fr}nav{gap:10px}nav a{font-size:.8rem}}
+    @media(max-width:480px){.grid{grid-template-columns:1fr}.formgrid{grid-template-columns:1fr}.hero{padding:55px 0}.nav{align-items:flex-start;padding:13px 0;flex-direction:column}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <div><div class="brand"><b>G~</b>Errands</div><div class="small">Fast and Reliable.</div></div>
+    <nav aria-label="Main navigation">
+      <a href="#services">Services</a><a href="#charges">Charges</a><a href="#request">Request</a><a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <span class="eyebrow">NAIROBI • EASTLEIGH • COUNTRYWIDE PARCELS</span>
+      <h1>Your errands.<br><span>Handled reliably.</span></h1>
+      <p>Shopping, pickups and deliveries made easier. Tell us what you need, where to collect it and where it should go. We will confirm the service fee and arrangements with you before proceeding.</p>
+      <div class="actions">
+        <a class="btn" href="#request">Request an Errand</a>
+        <a class="btn secondary" href="https://wa.me/254769662472" target="_blank" rel="noopener">Chat on WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="wrap">
+      <h2 class="section-title">What We Do</h2>
+      <p class="sub">Practical help for personal, household and business errands.</p>
+      <div class="grid">
+        <article class="tile"><div class="ico">🛒</div><h3>Shopping</h3><p>Market, supermarket, household and requested-item shopping.</p></article>
+        <article class="tile"><div class="ico">📍</div><h3>Shop Pickups</h3><p>Collect items from shops in Eastleigh and Nairobi Town/CBD.</p></article>
+        <article class="tile"><div class="ico">📦</div><h3>Parcel Collection</h3><p>Collect parcels and take them to the agreed courier service.</p></article>
+        <article class="tile"><div class="ico">🚚</div><h3>Pickups & Deliveries</h3><p>Item collection and drop-off within Nairobi and surrounding areas.</p></article>
+        <article class="tile"><div class="ico">📄</div><h3>Documents</h3><p>Certificates, admission letters and school or college documents.</p></article>
+        <article class="tile"><div class="ico">🏬</div><h3>Stock & Supplier Runs</h3><p>Stock collection, supplier pickups and customer deliveries.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="charges">
+    <div class="wrap two">
+      <div>
+        <h2 class="section-title">Service Charges</h2>
+        <p class="sub">Clear starting charges for selected collection and delivery services.</p>
+        <div class="panel price-list">
+          <div class="price-row"><span>Eastleigh shop pickup</span><strong>KSh 50 / shop</strong></div>
+          <div class="price-row"><span>Nairobi Town/CBD shop pickup</span><strong>KSh 100 / shop</strong></div>
+          <div class="price-row"><span>Eastleigh → Eastleigh</span><strong>KSh 100</strong></div>
+          <div class="price-row"><span>Shop → courier service (Eastleigh or Town)</span><strong>KSh 100</strong></div>
+          <div class="price-row"><span>Town → courier service</span><strong>KSh 100</strong></div>
+        </div>
+        <div class="notice">Other errands and shopping are quoted after we understand the item, quantity, size, value, time involved and delivery location. Courier company fees are separate.</div>
+      </div>
+      <div class="panel">
+        <h2 class="section-title">How It Works</h2>
+        <div class="steps">
+          <div class="step"><b>01 — Send your request</b><br>Share the item, pickup point and destination.</div><br>
+          <div class="step"><b>02 — Confirm the details</b><br>We discuss availability, service fee and timing with you.</div><br>
+          <div class="step"><b>03 — We handle the errand</b><br>We shop, collect or deliver as agreed, then update you.</div>
+        </div>
+        <div class="notice">For purchases, customers pay the shop or seller directly. Please do not send G~Errands money to pay for your goods.</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="request">
+    <div class="wrap two">
+      <div>
+        <h2 class="section-title">Request a Service</h2>
+        <p class="sub">Fill in the details. The form prepares a WhatsApp message for you to review and send.</p>
+        <p class="small">Your request is not confirmed until G~Errands replies and agrees the arrangements.</p>
+      </div>
+      <div class="panel">
+        <form id="requestForm">
+          <div class="formgrid">
+            <div><label for="customer">Your name *</label><input id="customer" required placeholder="Full name"></div>
+            <div><label for="phone">Phone number *</label><input id="phone" required type="tel" placeholder="07XX XXX XXX"></div>
+          </div>
+          <label for="service">Service needed *</label>
+          <select id="service" required>
+            <option value="">Choose a service</option><option>Shopping / purchase</option><option>Shop pickup</option><option>Pickup and delivery</option><option>Parcel collection to courier</option><option>Countrywide parcel delivery enquiry</option><option>Document collection</option><option>Stock / supplier pickup</option><option>Other errand</option>
+          </select>
+          <div class="formgrid">
+            <div><label for="pickup">Pickup location *</label><input id="pickup" required placeholder="Eastleigh, Town, shop..."></div>
+            <div><label for="dropoff">Destination *</label><input id="dropoff" required placeholder="Where should it go?"></div>
+          </div>
+          <label for="details">Item / errand details *</label><textarea id="details" required placeholder="Describe the item, quantity or task"></textarea>
+          <label for="notes">Additional instructions (optional)</label><textarea id="notes" placeholder="Preferred time or other useful details"></textarea>
+          <button class="btn" type="submit">Continue to WhatsApp</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="wrap">
+      <h2 class="section-title">Need an Errand?</h2>
+      <p class="sub">Available Monday–Saturday, 8 to 6. Serving Eastleigh, Nairobi Town and surrounding areas.</p>
+      <div class="actions" style="justify-content:center">
+        <a class="btn" href="https://wa.me/254769662472" target="_blank" rel="noopener">WhatsApp 0769 662 472</a>
+        <a class="btn secondary" href="tel:+254769662472">Call G~Errands</a>
+      </div>
+      <p class="small">Countrywide parcel delivery available through courier services.</p>
+    </div>
+  </section>
+</main>
+
+<footer><div class="wrap"><strong>G~ERRANDS</strong> — Fast and Reliable.<br>Eastleigh • Nairobi Town/CBD • Surrounding areas • Countrywide parcel delivery</div></footer>
+
+<script>
+document.getElementById('requestForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+  const v = id => document.getElementById(id).value.trim();
+  const message = [
+    'Hello G~Errands, I would like to request a service.',
+    '',
+    'Name: ' + v('customer'),
+    'Phone: ' + v('phone'),
+    'Service: ' + v('service'),
+    'Pickup: ' + v('pickup'),
+    'Destination: ' + v('dropoff'),
+    'Details: ' + v('details'),
+    'Instructions: ' + (v('notes') || 'None'),
+    '',
+    'Please confirm the service fee and arrangements before proceeding.'
+  ].join('\n');
+  window.open('https://wa.me/254769662472?text=' + encodeURIComponent(message), '_blank');
+});
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => navigator.serviceWorker.register('./sw.js').catch(() => {}));
+}
+</script>
+</body>
+</html>
